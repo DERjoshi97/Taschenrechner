@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Dateien/Eigene Programme/Taschenrechner",
-      "program": "d:/Dateien/Eigene Programme/Taschenrechner/build/Debug/outDebug",
+      "cwd": "d:/Dateien/Eigene+Programme/Taschenrechner",
+      "program": "d:/Dateien/Eigene+Programme/Taschenrechner/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
