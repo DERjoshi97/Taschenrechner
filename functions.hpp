@@ -1,10 +1,9 @@
+#pragma once
 #include <iostream>
 #include <cstdint>
 #include <string>
 
-float operation(float ValueA, float ValueB, auto Operator);
-float InputUserValue();
-int InputUserOperator();
+
 
 enum class UsedOperators
 {
@@ -13,3 +12,8 @@ enum class UsedOperators
     Multiplication = 3,
     Division = 4
 };
+
+float operation(float ValueA, float ValueB, auto Operator);
+float InputUserValue();
+int InputUserOperator();
+void Calculator();

@@ -53,3 +53,13 @@ int InputUserOperator()
     std::cin >> entryOperator;
     return entryOperator;
 }
+void Calculator()
+{
+    float ValueA = InputUserValue();
+    float ValueB = InputUserValue();
+    int Operator = InputUserOperator();
+    auto transformedOperator = static_cast <UsedOperators>(Operator);
+    float Ergebnis = operation(ValueA, ValueB, transformedOperator);
+
+    std::cout << Ergebnis << "\n";
+}
