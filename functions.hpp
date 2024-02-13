@@ -4,7 +4,7 @@
 
 float operation(float ValueA, float ValueB, auto Operator);
 float InputUserValue();
-float InputUserOperator();
+int InputUserOperator();
 
 enum class UsedOperators
 {
